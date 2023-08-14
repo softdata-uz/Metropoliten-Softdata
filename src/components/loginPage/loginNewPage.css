@@ -1,0 +1,187 @@
+.login_new_page {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+}
+
+.login_new_page_left {
+    height: 100%;
+    background: linear-gradient(0deg, rgba(0, 8, 52, 0.64), rgba(0, 8, 52, 0.64)), url("../../images/login/loginNewImg.svg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.login_new_page_left_logo {
+
+}
+
+.login_new_page_left_logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.login_new_page_left_body {
+    display: grid;
+    align-items: center;
+}
+
+.login_new_page_left_body h1 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.login_new_page_left_body p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.login_new_page_left_footer {
+    display: flex;
+    align-items: end;
+}
+
+.login_new_page_left_footer p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+.login_new_page_right {
+    height: 100%;
+    padding: 50px 80px;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-rows: auto;
+}
+
+@media (min-width: 1400px) {
+    .login_new_page_right {
+        padding: 50px 120px;
+    }
+}
+
+.login_new_page_right_top {
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+
+.login_new_page_right_top p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636C79;
+}
+
+.login_new_page_right_top p:first-child {
+    margin-right: 15px !important;
+}
+
+.login_new_page_right_body {
+    display: flex;
+    align-items: center;
+}
+
+.login_new_page_right_body_inner {
+    text-align: center;
+    width: 100%;
+}
+
+.login_new_page_right_body_inner h2 {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.login_new_page_right_body_inner p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636C79;
+}
+
+.login_new_page_right_footer {
+    text-align: center;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.login_new_page_right_footer p {
+    font-family: "Gilroy";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636C79;
+}
+
+.login_new_page_right_footer h2 {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.login_new_page_right_body_inner_form {
+    margin: 30px 0;
+}
+
+.login_new_page_right_body_inner_form .ant-input {
+    height: 30px !important;
+}
+
+.login_new_page_right_body_inner_form .ant-input-affix-wrapper {
+    display: flex !important;
+    align-items: center !important;
+    border-radius: 5px !important;
+    height: 40px!important;
+    margin-top: 10px;
+}
+
+.login_new_page_right_body_inner_form button {
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #26BF56;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.ant-input input {
+    background: transparent !important;
+}
+
+.ant-input-prefix .anticon {
+    /*color: green!important;*/
+}
+
