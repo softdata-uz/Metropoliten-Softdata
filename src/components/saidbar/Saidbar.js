@@ -14,6 +14,7 @@ import 'antd/dist/antd.css';
 
 import logo_light from '../../images/logo_light.svg';
 import logo from '../../images/metroBiocontrol/logo.svg';
+import logo_dark from '../../images/metroBiocontrol/logo_black.svg';
 import dashborad from '../../images/metroBiocontrol/dashboardIcon.svg';
 import users from '../../images/metroBiocontrol/users.svg';
 import calendar from '../../images/metroBiocontrol/calendar.svg';
@@ -104,7 +105,11 @@ const Saidbar = ({user, setUser}) => {
                     <div className="saidbar_top_bottom">
                         <div>
                             <div className="logo">
-                                    <img className="logo_img " src={logo} alt=""/>
+                                {
+                                    isDarkMode ? <img className="logo_img " src={logo} alt=""/> :
+                                        <img className="logo_img " src={logo_dark} alt=""/>
+                                }
+
                             </div>
 
                             <Menu
