@@ -62,6 +62,7 @@
 .dashboard_left{
     display: flex;
     flex-direction: column;
+    align-content: space-between;
     padding: 5px 10px ;
 }
 
@@ -133,6 +134,26 @@
     stroke-linecap: round;
     transition: stroke-dashoffset 0.5s ease 0s;
 }
+.more_wiev_button{
+    height: calc(100vh - 430px);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.more_wiev_button button{
+    padding: 5px 15px;
+    border-radius: 5px;
+background: #EFF8FE;
+    color: #069CDF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    cursor: pointer;
+}
+
+
+
 
 
 @media only screen and (max-width: 1470px) {
